@@ -18,9 +18,8 @@ public class EncryptionDriver{
         Encryption msg = new Encryption(sentence);
 
         // prints original sentence 
-        String originalsent = new String(sentence);
         System.out.println();
-        System.out.println(originalsent);
+        System.out.println(sent);
 
     }
 

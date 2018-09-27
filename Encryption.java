@@ -22,10 +22,10 @@ public class Encryption{
         }
         //randomizes the user input 
         for (int i = arr.length-1; i > 0; i--) {  
-            int j = r.nextInt(arr.length); 
-            char element = arr[i];
+            int j = r.nextInt(arr.length-1); 
+            char temp = arr[i]; 
             arr[i] = arr[j]; 
-            arr[j] = element;    
+            arr[j] = temp; 
         }
         System.out.println(arr);
 
